@@ -1,0 +1,97 @@
+.hcard {
+    --hcard-padding: 1rem;
+    --hcard-border-radius: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border: 1px solid #444;
+    border-radius: var(--hcard-border-radius);
+    overflow: hidden;
+
+    transition: all 400ms ease-in-out;
+}
+
+.hcard-shadow {
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+/*
+.hcard:hover > .hcard-image > img {
+    transform: scale(1.25);
+}
+*/
+
+.hcard:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 7px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hcard-image {
+    flex: 1;
+    overflow: hidden;
+    height: 100%;
+}
+
+.hcard-image > img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+    transition: transform 400ms ease-in-out;
+}
+
+.hcard-text-container {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hcard-text {
+    display: block;
+}
+
+.hcard-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+
+    padding: var(--hcard-padding);
+}
+
+.hcard-body {
+    font-size: 0.9rem;
+    padding: 0 var(--hcard-padding);
+}
+
+.hcard-footer {
+    font-size: 1rem;
+    padding: var(--hcard-padding);
+}
+
+
+.btn {
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: var(--primary);
+    border-radius: 0.5em;
+    padding: 0.3em 0.7em;
+    color: white;
+    border: none;
+}
+
+.btn.btn-outliine {
+    background-color: white;
+    color: var(--secondary);
+    border: var(--secondary) solid 1px;
+}
+
+.btn + .btn {
+    margin-left: 0.4em;
+}
+
