@@ -14,8 +14,8 @@ import Layout from './components/Layout';
 
 const Nav = () => {
   return(
-    <div style={{height: '60px', color: 'white', backgroundColor: 'black'}}>
-      <h1>Navbar</h1>
+    <div style={{height: '80px', color: 'white', backgroundColor: 'black'}}>
+      <h1 style={{margin: '0px', padding: '1rem'}}>SuperCool Components</h1>
     </div>
 
   );
@@ -45,8 +45,8 @@ const Main = () => {
 
 const Footer = () => {
   return(
-    <div style={{height: '60px', color: 'white', backgroundColor: 'black'}}>
-      <h2>Footer</h2>
+    <div style={{height: '200px', color: 'white', backgroundColor: 'black'}}>
+      <h2 style={{margin: '0px', padding: '1rem'}}>Footer</h2>
     </div>
     
   );
