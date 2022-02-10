@@ -5,6 +5,10 @@
 
 .App {
   padding: 3rem;
+  background-image: url(./assets/images/village.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* width */
