@@ -15,7 +15,7 @@ import Layout from './components/Layout';
 const Nav = () => {
   return(
     <div style={{height: '80px', color: 'white', backgroundColor: 'black'}}>
-      <h1 style={{margin: '0px', padding: '1rem'}}>SuperCool Components</h1>
+      <h1 style={{margin: '0px', padding: '1rem'}}>IT242 SuperCool Components</h1>
     </div>
 
   );
