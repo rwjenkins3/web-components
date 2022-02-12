@@ -9,6 +9,10 @@
     border-radius: var(--hcard-border-radius);
     overflow: hidden;
 
+ 
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+
     transition: all 400ms ease-in-out;
 }
 
