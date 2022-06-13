@@ -1,6 +1,7 @@
 .hcard {
     --hcard-padding: 1rem;
     --hcard-border-radius: 1rem;
+    --bg-color: rgb(255, 255, 255, 0.5);
 
     display: flex;
     flex-direction: row;
@@ -8,6 +9,12 @@
     border: 1px solid #444;
     border-radius: var(--hcard-border-radius);
     overflow: hidden;
+
+    backdrop-filter: blur(25px);
+
+    background-color: var(--bg-color);
+    /* background-blend-mode: multiply; */
+
 
     transition: all 400ms ease-in-out;
 }
